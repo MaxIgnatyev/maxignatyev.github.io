@@ -1,0 +1,182 @@
+﻿.top-banner {
+    height: auto;
+    min-height: 300px;
+    max-height: 400px;
+    background-color: #66cccc;
+}
+
+@media only screen and (max-width: 600px) {
+    .top-banner {
+        height: auto;
+        min-height: 350px;
+        max-height: 450px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .profile-photo {
+        display: block;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        top: 2%;
+        z-index: 0;
+        width: auto;
+        max-width: 300px;
+        height: auto;
+        border-radius: 50%;
+        left: 20px;
+        border-style: solid;
+        border-width: 10px;
+        border-color: white;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .profile-photo {
+        display: block;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        top: 10%;
+        z-index: 1;
+        width: auto;
+        max-width: 200px;
+        height: auto;
+        border-radius: 50%;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .big-heading {
+        font-family: 'Lobster', cursive;
+        width: 80%;
+        color: white;
+        position: absolute;
+        top: 275px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .big-heading {
+        font-family: 'Lobster', cursive;
+        font-size: 100px;
+        z-index: 1;
+        width: 80%;
+        position: absolute;
+        top: 100px;
+        right: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: right;
+    }
+}
+
+/*
+    NAVBAR ----------------------------------
+*/
+
+@media only screen and (min-width: 600px) {
+    .main-nav {
+    }
+
+    .mobile-nav {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        visibility: hidden;
+        margin-top: -56px;
+    }
+
+    .mobile-nav {
+        height: 300px;
+        font-size: 2em;
+    }
+}
+
+/*
+---------------------------------------------
+*/
+
+.filler-text {
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+#sfrscreen {
+    height: 300px;
+    background-image: url(images/sfrscreen.png);
+    background-size: cover;
+}
+
+#tibbsscreen {
+    height: 300px;
+    background-image: url(images/tibbsscreenv2.jpg);
+    background-size: cover;
+}
+
+#kierascreen {
+    height: 300px;
+    background-image: url(images/kierasite.png);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?ebznqi');
+    src: url('fonts/icomoon.eot?ebznqi#iefix') format('embedded-opentype'), 
+        url('fonts/icomoon.ttf?ebznqi') format('truetype'),
+        url('fonts/icomoon.woff?ebznqi') format('woff'),
+        url('fonts/icomoon.svg?ebznqi#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkslategray;
+    color: black;
+    text-align: center;
+}
+
+.footer-content {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.footer i {
+    font-size: 2em;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.pac {
+    position: relative;
+    width: 2%;
+    height: 2%;
+    animation: kaboom 2s ease alternate infinite;
+}
+@keyframes kaboom {
+    90% {
+        transform: scale(1.0);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
