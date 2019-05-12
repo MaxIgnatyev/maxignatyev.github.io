@@ -1,0 +1,31 @@
+﻿.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkslategray;
+    color: black;
+    text-align: center;
+}
+
+.footer-content {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.footer i {
+    font-size: 2em;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+$font-stack: Helvetica, sans-serif;
+
+$primary-color: #000;
+
+.footer p {
+    font: 100% $font-stack;
+    color: $primary-color;
+    padding: 10px;
+    font-size: 1.5em;
+}

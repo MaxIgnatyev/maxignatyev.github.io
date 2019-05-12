@@ -144,7 +144,7 @@
     font-style: normal;
 }
 
-.footer {
+/*.footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -163,7 +163,7 @@
     font-size: 2em;
     padding: 5px;
     margin-bottom: 20px;
-}
+}*/
 
 .pac {
     position: relative;
