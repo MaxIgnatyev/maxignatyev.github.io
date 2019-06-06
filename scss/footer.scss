@@ -1,0 +1,34 @@
+﻿.footer {
+    background-color: darkslategray;
+    color: black;
+    text-align: center;
+    bottom: 0;
+    height: 2em;
+    left: 0;
+    position: relative; //changed to relative from fixed also works if position is not there
+    font-size: small;
+    width:100%;
+
+}
+
+.footer-content {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.footer i {
+    font-size: 2em;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+$font-stack: Helvetica, sans-serif;
+
+$primary-color: #000;
+
+.footer p {
+    font: 100% $font-stack;
+    color: $primary-color;
+    padding: 10px;
+    font-size: 1.5em;
+}

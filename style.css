@@ -84,9 +84,10 @@
     NAVBAR ----------------------------------
 */
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) {
     .main-nav {
     }
+
     .mobile-nav {
         visibility: hidden;
     }
@@ -97,6 +98,7 @@
         visibility: hidden;
         margin-top: -56px;
     }
+
     .mobile-nav {
         height: 300px;
         font-size: 2em;
@@ -112,3 +114,86 @@
     font-size: 50px;
     text-align: center;
 }
+
+#sfrscreen {
+    height: 300px;
+    background-image: url(images/sfrscreen.png);
+    background-size: cover;
+}
+
+#tibbsscreen {
+    height: 300px;
+    background-image: url(images/tibbsscreenv2.jpg);
+    background-size: cover;
+}
+
+#kierascreen {
+    height: 300px;
+    background-image: url(images/kierasite.png);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?ebznqi');
+    src: url('fonts/icomoon.eot?ebznqi#iefix') format('embedded-opentype'), 
+        url('fonts/icomoon.ttf?ebznqi') format('truetype'),
+        url('fonts/icomoon.woff?ebznqi') format('woff'),
+        url('fonts/icomoon.svg?ebznqi#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: -400px;
+    width: 100%;
+    background-color: darkslategray;
+    color: black;
+    text-align: center;
+    
+
+}
+
+.footer-content {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.footer i {
+    font-size: 2em;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.pac {
+    position: relative;
+    width: 2%;
+    height: 2%;
+    animation: kaboom 2s ease alternate infinite;
+}
+@keyframes kaboom {
+    90% {
+        transform: scale(1.0);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+
+#blocktoanimate {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: relative;
+    left: 0%;
+}
+
+#start {
+    display: block;
+}
+
