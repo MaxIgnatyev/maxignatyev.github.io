@@ -98,10 +98,21 @@
         visibility: hidden;
         margin-top: -56px;
     }
+    
+    .mainlinks {
+        visibility: hidden;
+    }
 
     .mobile-nav {
-        height: 300px;
         font-size: 2em;
+    }
+    
+    .footer {
+        margin-top: 50px;
+    }
+    
+    .filler-text {
+        font-size: 20px;
     }
 }
 
@@ -145,9 +156,10 @@
 }
 
 .footer {
-    position: relative;
+    position: static;
     left: 0;
-    bottom: -400px;
+    margin-top: 300px;
+    bottom: 0;
     width: 100%;
     background-color: darkslategray;
     color: black;
@@ -196,4 +208,98 @@
 #start {
     display: block;
 }
+
+.designlink {
+    height: 200px;
+    background-image: url(images/design.jpg);
+    background-size: cover;
+
+}
+
+.programminglink {
+    height: 200px;
+    background-image: url(images/photography.jpg);
+    background-size: cover;
+
+}
+
+.gallerylink {
+    height: 200px;
+    background-image: url(images/photography2.jpg);
+    background-size: cover;
+
+}
+
+.mainlinks {
+    margin-top: 250px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: .1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.programminglink :hover .middle {
+    opacity: .8;
+}
+
+.designlink :hover .middle {
+  opacity: .8;
+}
+
+.gallerylink :hover .middle {
+  opacity: .8;
+}
+
+.mainlinks .col-sm { margin: 10px;}
+
+
+.text {
+  background-color: black;
+  color: white;
+  font-size: 20x;
+/*  padding: 16px 32px;*/
+    padding: 24px 42px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+#alphabetpic {
+    height: 180px;
+    background-image: url(images/alphebitizer.png);
+    background-size: cover;
+}
+
+#gradepic {
+    height: 180px;
+    background-image: url(images/grade.png);
+    background-size: cover; 
+}
+
+#chatterpic {
+    height: 200px;
+    background-image: url(images/chatter.png);
+    background-size: cover; 
+}
+
+#bfdatabase {
+    height: 200px;
+    background-image: url(images/bfdbpic.png);
+    background-size: cover;
+}
+
 
