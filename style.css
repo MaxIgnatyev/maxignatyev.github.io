@@ -116,14 +116,21 @@
     }
 }
 
+@media only screen and (min-width: 3000px) {
+    .footer {
+        position: fixed;
+    }
+}
+
 /*
 ---------------------------------------------
 */
 
 .filler-text {
-    font-family: 'Indie Flower', cursive;
-    font-size: 50px;
+    font-family: 'Calibri';
+    font-size:24px;
     text-align: center;
+    padding: 20px;
 }
 
 #sfrscreen {
@@ -301,5 +308,30 @@ a:hover {
     background-image: url(images/bfdbpic.png);
     background-size: cover;
 }
+
+#enzymepic {
+    height: 100px;
+    background-image: url(images/enzyme.png);
+    background-size: cover;
+}
+
+#microscopypic {
+    height: 180px;
+    background-image: url(images/microscopy.png);
+    background-size: cover;
+}
+
+#respirationpic {
+    height: 250px;
+    background-image: url(images/respiration.png);
+    background-size: cover;
+}
+
+#nutrientpic {
+    height: 250px;
+    background-image: url(images/nutrients.png);
+    background-size: cover;
+}
+
 
 

@@ -1,31 +1,38 @@
-﻿<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>Max Portfolio</title>
+    <title>Max Ignatyev</title>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+
+<!--    <link rel="stylesheet" href="demo.css" />-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined'){
-    document.write(unescape("jquery-1.11.3.js"));
-}
-    </script>
-<script type="text/javascript" src="scripts/script.js"></script>
+    <link rel="stylesheet" href="scss/main.css" />
+    <link rel="stylesheet" href="scss/footer.css" />
 </head>
-<body>
+<body class="index-body">
+
+    <script></script>
+
     <div class="container-fluid top-banner">
     </div>
     <div>
         <img class="profile-photo" src="images/profileimage.jpg" alt="profile photo" />
         <h1 class="big-heading">Max Ignatyev</h1>
+
     </div>
 
- <nav class="navbar navbar-expand-sm bg-dark navbar-dark main-nav">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark main-nav">
         <a class="navbar-brand" href="index.html"> Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -53,16 +60,16 @@ if (typeof jQuery == 'undefined'){
 
     <ul class="nav nav-pills nav-fill flex-column mobile-nav">
         <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="design_portfolio.html">Design</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="programming_portfolio.html">Programming</a>
+            <a class="nav-link active" href="programming_portfolio.html">Programming</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Photo</a>
+            <a class="nav-link" href="gallery.html">Photos</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="about.html">About Me</a>
@@ -71,29 +78,50 @@ if (typeof jQuery == 'undefined'){
             <a class="nav-link" href="otherwork.html">Other Work</a>
         </li>
     </ul>
-
-    <div class="container" style="margin-top:30px">
-        <div class="row">
-            <div class="col-sm-12">
-                <!--<p>These websites as well as this portfolio site have all been built by me.</p>-->
-                <h2>Seattle Freeway Revolt</h2>
-                <h5>Website for film</h5>
-                <a href="files/seattlefreewayrevolt/index.html"><div id="sfrscreen"></div></a>
-                <p>Worked with client to design and build a mockup for a website promoting a documentary film about the freeway construction opposition movement of Seattle during the 1960s.</p>
-                <br>
-                <h2>Tibbs Surf Company</h2>
-                <h5>Surf Clothing Website</h5>
-                <a href="files/websitefinal/index.html"><div id="tibbsscreen"></div></a>
-                <p>Website made for the purpose of selling merchandise online. Clothing designed by myself.</p>
-                <br>
-                <h2>Kiera Portfolio</h2>
-                <h5>Photography Website</h5>
-                <a href="files/Kiera/index.html"><div id="kierascreen"></div></a>
-                <p>Mocked up a photo portfolio website using a parallax effect.</p>
-            </div>
-        </div>
-    </div>
     
+    <div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>Catalysis of Horseradish Enzyme in Varied Temperature Conditions</h2>
+      <h5>Lab Report</h5>
+      <div id="enzymepic"></div>
+        <a href="files/EnzymeWriteUpMax.pdf">Download PDF</a>
+      <p>BIOL 205 Assignment write up of an Enzyme Lab.</p>
+      <br>
+        <h2>Microscopy of mitotic cell division in Allium sativum</h2>
+      <h5>Observational write up</h5>
+      <div id="microscopypic"></div>
+        <a href="files/MitosisWriteUp.pdf">Download PDF</a>
+      <p>BIOL 205 Assignment determining processes of cellular division in garlic root tips.</p>
+      <br>
+        <h2>Effects of Temperature on Respiration Rates Measured in Mice and Fish</h2>
+      <h5>Lab Report</h5>
+      <div id="respirationpic"></div>
+        <a href="files/Lab4_1MaxIgnatyev.pdf">Download PDF</a>
+      <p>BIOL 206 Lab report compiled based on experimental data in respiration rates of two classifications of organisms.</p>
+      <br>
+        <h2>Effects of nutrient deficiency on Raphanus sativus (radish plant)</h2>
+      <h5>Lab Report</h5>
+      <div id="nutrientpic"></div>
+        <a href="files/Lab6.2writeup.pdf">Download PDF</a>
+      <p>BIOL 206 Lab report on the effects of different nutrient deficiencies on radish plants.</p>
+      <br>
+
+    </div>
+  </div>
+</div>
+
+<!-- gsap stuff... -->
+<!--
+    <div id="blocktoanimate"></div>
+    <button class="btn btn-primary" id="start">I don't like this block here.</button>
+     gsap scripts 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="scripts/gsapscript.js"></script>
+-->
+
+
+
     <div class="footer">
         <p class="footer-content">Max Ignatyev</p>
         <a href="mailto:maxignatyev@gmail.com"><i class="fas fa-paper-plane"></i></a>
@@ -101,7 +129,6 @@ if (typeof jQuery == 'undefined'){
         <a href="https://youtube.com/maxignatyev"><i class="fab fa-youtube"></i></a>
         <a href="https://www.linkedin.com/in/max-ignatyev-b23620103/"><i class="fab fa-linkedin"></i></a> 
     </div>
-    
-</body>
 
+</body>
 </html>
